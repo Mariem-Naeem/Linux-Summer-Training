@@ -1,0 +1,23 @@
+ task 1 
+mkdir "Mariem Naeem "  >> to make new directory and double Quotes to make space 
+cd to change directory
+
+mkdir -p to make directory inside directory (optional)
+touch file1.txt file2.txt file3.txt    >>> to make 3 files inside directory "Documents"
+
+touch .hidden_file >> to hide a file 
+ls -a to see the hidden file
+
+nano file1.txt and write "some words" and save it 
+cat file1.txt to show all words in file
+cd .. to go back
+
+mkdir "-" to make a directory -
+cd Documents/- to change directory to path ~/Mariem Naeem /-
+
+cp -r Documents/ My_Document >>> to copy and rename in the main directory
+
+mv Documents/file2.txt Documents/file3.txt . >>write the path of files and move it in main diectory (.)
+
+cd ../.. to go back to home or cd ~
+rm -r "Mariem Naeem " to remove the main directory and remove all files and directories on it.
