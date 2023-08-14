@@ -1,0 +1,53 @@
+Task2 
+
+in step1 :
+upload zip file stord in desktop
+unzip Updated-Task-02.zip
+ls
+cd Updated-Task-02
+cat README.txt 
+ls -a ->> to locate what you can't see
+tar -xf .level-1.tar 
+ls -a
+cd .level-1/
+
+in step2 :
+cat README.txt 
+file level-2
+mv level-2 level2.tar 
+tar -xf level-2.tar
+cd level-2
+
+in step3 :
+ls 
+ls -l
+
+in step 4 :
+cat README.txt 
+find . -name "level-3"
+cd gB(name of dir)
+ls 
+
+in step 5 :
+ls 
+mv level-3 level-3.tar
+ls
+tar -xf level-3.tar
+cd level-3
+
+in step 6:
+ls 
+cat README.txt 
+ls -la ->> to see link 
+
+
+in step 7 :
+after find the link 
+cat Wf(name of link)
+
+in step 8 :
+find . -type f -size +72c -size -74c
+cd m7(name of dir)
+cat (name of file )
+
+
