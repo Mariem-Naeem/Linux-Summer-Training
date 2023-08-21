@@ -1,0 +1,41 @@
+Task 3
+
+in step 1 :
+sudo Useradd osc (add user called osc)
+sudo passwd osc (create passwoed of user osc)
+sudo groupadd osc_group ( to create group)
+sudo usermod -aG osc_group osc ( to get user into gruop)
+sudo usermod -aG sudo osc (to get user osc permission sudo)
+su osc ( to switch into user osc)
+
+in step 2 :
+sudo mkdir (folder name)
+cd ( folder name)
+touch ( 3 files)
+sudo chmod a=rw public_file.txt
+sudo chmod u+rw private_file.txt
+sudo chmod u+rwx executable file
+sudo chmod g+rw excutable file 
+ls -l ( to verfiy permission )
+
+in step 3:
+sudo chown mariem:osc-group private file
+ls -l 
+
+in step 4 : 
+sleep 1000 & 
+kill PID (of sleep)
+sudo apt install vim
+killall -9 vim 
+jobs ( to verfiy killed )
+
+in step 5 :
+sudo apt install neofetch (to install)
+sudo apt remove neofetch ( to uninstall)
+
+
+
+
+
+ 
+
